@@ -1,8 +1,15 @@
-2025-11-21 01:45:28,350 - INFO - Binance Client initialized successfully.
-2025-11-21 01:45:28,359 - INFO - Attempting to place MARKET order: BUY 0.001 BTCUSDT
-2025-11-21 01:45:30,051 - ERROR - Error placing market order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
-2025-11-21 01:45:30,052 - ERROR - Failed to place market order.
+
 2025-11-21 01:46:31,588 - INFO - Binance Client initialized successfully.
 2025-11-21 01:46:31,589 - INFO - Attempting to place MARKET order: BUY 0.002 BTCUSDT
 2025-11-21 01:46:32,948 - INFO - Market Order Placed: {'orderId': 10482575655, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ46c3c2d537b73f3958afd4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1763669793736}
 2025-11-21 01:46:32,950 - INFO - Market order placed successfully: 10482575655
+2025-11-21 01:53:29,309 - INFO - Binance Client initialized successfully.
+2025-11-21 01:53:29,310 - INFO - Attempting to place LIMIT order: SELL 0.002 BTCUSDT at 95000.0
+2025-11-21 01:53:30,267 - INFO - Limit Order Placed: {'orderId': 10482800622, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8c6f4f50da17b9fc040c01', 'price': '95000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1763670211090}
+2025-11-21 01:53:30,268 - INFO - Limit order placed successfully: 10482800622
+2025-11-21 01:53:54,919 - INFO - Binance Client initialized successfully.
+2025-11-21 01:53:54,920 - INFO - Attempting to place STOP-LIMIT order: SELL 0.003 BTCUSDT at 94000.0, stop: 94500.0
+2025-11-21 01:56:34,921 - INFO - Binance Client initialized successfully.
+2025-11-21 01:58:02,900 - INFO - Binance Client initialized successfully.
+2025-11-21 01:58:02,901 - INFO - Attempting to place STOP-LIMIT order: SELL 0.002 BTCUSDT at 85900.0, stop: 86000.0
+2025-11-21 01:58:03,550 - INFO - Stop-Limit Order Placed: {'orderId': 10482949322, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJacb6606fa582b39ca6703c', 'price': '85900.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '86000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1763670484361}

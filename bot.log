@@ -1,0 +1,8 @@
+2025-11-21 01:45:28,350 - INFO - Binance Client initialized successfully.
+2025-11-21 01:45:28,359 - INFO - Attempting to place MARKET order: BUY 0.001 BTCUSDT
+2025-11-21 01:45:30,051 - ERROR - Error placing market order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2025-11-21 01:45:30,052 - ERROR - Failed to place market order.
+2025-11-21 01:46:31,588 - INFO - Binance Client initialized successfully.
+2025-11-21 01:46:31,589 - INFO - Attempting to place MARKET order: BUY 0.002 BTCUSDT
+2025-11-21 01:46:32,948 - INFO - Market Order Placed: {'orderId': 10482575655, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ46c3c2d537b73f3958afd4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1763669793736}
+2025-11-21 01:46:32,950 - INFO - Market order placed successfully: 10482575655
